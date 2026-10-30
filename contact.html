@@ -1,8 +1,8 @@
-<!DOCTYPE html >
+<!DOCTYPE html>
 <html>
 <head>
-    <title> Contact </title>
-    <link rel="stylesheet" href="style.css"
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Contactez-nous</h1>
@@ -10,7 +10,8 @@
     <form action="#" method="POST">
 
         <label for="nom">Nom :</label>
-        <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+        <input type="text" id="nom" name="nom"
+               placeholder="Votre nom" required>
 
         <br><br>
 
@@ -20,5 +21,14 @@
 
         <br><br>
 
+        <label for="message">Message :</label>
+        <textarea id="message" name="message"
+                  placeholder="Votre message" required></textarea>
+
+        <br><br>
+
+        <button type="submit">Envoyer</button>
+
+    </form>
 </body>
 </html>
